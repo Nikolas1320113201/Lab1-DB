@@ -51,6 +51,26 @@ CREATE TABLE "orders" (
   "status" varchar,
   "created_at" varchar
 );
+insert into orders (id, user_id, status, created_at) values (1, 593854, false, '10/20/2020');
+insert into orders (id, user_id, status, created_at) values (2, 939190, false, '9/18/2020');
+insert into orders (id, user_id, status, created_at) values (3, 958163, true, '3/12/2020');
+insert into orders (id, user_id, status, created_at) values (4, 588776, true, '11/17/2020');
+insert into orders (id, user_id, status, created_at) values (5, 570743, true, '3/19/2020');
+insert into orders (id, user_id, status, created_at) values (6, 844129, true, '2/22/2021');
+insert into orders (id, user_id, status, created_at) values (7, 882914, true, '4/22/2020');
+insert into orders (id, user_id, status, created_at) values (8, 773363, true, '11/26/2020');
+insert into orders (id, user_id, status, created_at) values (9, 693900, true, '12/19/2020');
+insert into orders (id, user_id, status, created_at) values (10, 639134, false, '5/25/2020');
+insert into orders (id, user_id, status, created_at) values (11, 291646, true, '2/22/2021');
+insert into orders (id, user_id, status, created_at) values (12, 255999, false, '3/7/2021');
+insert into orders (id, user_id, status, created_at) values (13, 634265, false, '1/9/2021');
+insert into orders (id, user_id, status, created_at) values (14, 969842, true, '8/12/2020');
+insert into orders (id, user_id, status, created_at) values (15, 290603, false, '9/24/2020');
+insert into orders (id, user_id, status, created_at) values (16, 741138, false, '2/10/2021');
+insert into orders (id, user_id, status, created_at) values (17, 506397, true, '1/6/2021');
+insert into orders (id, user_id, status, created_at) values (18, 304890, false, '12/27/2020');
+insert into orders (id, user_id, status, created_at) values (19, 554520, true, '2/5/2021');
+insert into orders (id, user_id, status, created_at) values (20, 340488, true, '7/17/2020');
 
 ALTER TABLE "users" ADD FOREIGN KEY ("country_code") REFERENCES "hookah" ("code");
 
