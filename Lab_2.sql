@@ -122,5 +122,3 @@ ALTER TABLE "order_items" ADD FOREIGN KEY ("order_id") REFERENCES "orders" ("id"
 ALTER TABLE "order_items" ADD FOREIGN KEY ("product_id") REFERENCES "hookah" ("product_id");
 
 ALTER TABLE "orders" ADD FOREIGN KEY ("user_id") REFERENCES "users" ("id");
-
-COMMENT ON COLUMN "orders"."created_at" IS 'When order created';
