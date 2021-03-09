@@ -37,6 +37,27 @@ CREATE TABLE "hookah" (
   "status" products_status
 );
 
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (1, 'Reilly Group', 'Afghanistan', 'AF', 53, 'explicit', 95024, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (2, 'Abernathy, McCullough and Hand', 'Mexico', 'MX', 29, 'mobile', 86303, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (3, 'Pagac, Labadie and Jacobson', 'France', 'FR', 37, 'Open-architected', 94601, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (4, 'Hansen-Baumbach', 'Japan', 'JP', 42, '5th generation', 80472, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (5, 'Raynor, Donnelly and Von', 'China', 'CN', 28, 'artificial intelligence', 74801, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (6, 'Skiles Inc', 'Brazil', 'BR', 80, 'Persevering', 1621, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (7, 'Greenholt-Monahan', 'Portugal', 'PT', 33, 'explicit', 88910, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (8, 'Labadie-Oberbrunner', 'Mexico', 'MX', 74, 'groupware', 23805, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (9, 'Wisoky-Shanahan', 'Yemen', 'YE', 58, 'value-added', 85515, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (10, 'Heathcote-Wisozk', 'Croatia', 'HR', 68, 'Persistent', 18503, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (11, 'Christiansen-Rohan', 'Norway', 'NO', 35, 'national', 80285, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (12, 'Carter Inc', 'Colombia', 'CO', 77, 'paradigm', 61040, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (13, 'Bruen-Mosciski', 'France', 'FR', 63, 'hub', 6337, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (14, 'Dickens-Kshlerin', 'France', 'FR', 29, 'Programmable', 3564, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (15, 'Rippin-Pacocha', 'United States', 'US', 66, 'challenge', 35066, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (16, 'Macejkovic Inc', 'Philippines', 'PH', 77, 'secured line', 76704, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (17, 'Ernser and Sons', 'China', 'CN', 30, 'budgetary management', 9708, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (18, 'Dickinson, Purdy and Zulauf', 'United States', 'US', 72, 'Team-oriented', 14433, true);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (19, 'Brown, Romaguera and Bogan', 'China', 'CN', 81, 'Advanced', 65975, false);
+insert into hookah (product_id, name, continent_name, code, height, material, price, status) values (20, 'Stoltenberg, Gleason and Thompson', 'Netherlands', 'NL', 70, 'coherent', 37692, false);
+
 CREATE TABLE "order_items" (
   "order_id" int,
   "product_id" int,
