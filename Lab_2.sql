@@ -45,12 +45,34 @@ CREATE TABLE "order_items" (
   "mouthpiece" boolean DEFAULT true
 );
 
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (381646, 1871, 2, false, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (636961, 1647, 5, false, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (694833, 8239, 4, true, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (815132, 7813, 1, false, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (922335, 5567, 1, false, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (138952, 8711, 3, true, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (717748, 3325, 4, false, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (675643, 7793, 3, true, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (761393, 5836, 4, false, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (893847, 8704, 4, false, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (473318, 5433, 1, false, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (626985, 4002, 3, true, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (357332, 7073, 5, false, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (522854, 6818, 3, true, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (396131, 9526, 4, true, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (573094, 9301, 4, true, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (375971, 9348, 1, false, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (773503, 3010, 1, false, false);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (200729, 4592, 5, true, true);
+insert into order_items (order_id, product_id, quantity, tobacco, mouthpiece) values (253878, 3342, 5, false, true);
+
 CREATE TABLE "orders" (
   "id" int PRIMARY KEY,
   "user_id" int UNIQUE NOT NULL,
   "status" varchar,
   "created_at" varchar
 );
+
 insert into orders (id, user_id, status, created_at) values (1, 593854, false, '10/20/2020');
 insert into orders (id, user_id, status, created_at) values (2, 939190, false, '9/18/2020');
 insert into orders (id, user_id, status, created_at) values (3, 958163, true, '3/12/2020');
