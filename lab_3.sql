@@ -57,7 +57,7 @@ AS CountOfCountry
 FROM hookah
 
 --9
---Виводимо назви карїн та товару за допомогою оператора UNION.
+--Виводимо назви країн та товару за допомогою оператора UNION.
 SELECT continen_name FROM hookah
 UNION
 SELECT name FROM hookah
@@ -65,7 +65,7 @@ SELECT name FROM hookah
 --10
 --Додаємо стовпець weight, використовуючи оператор SQL ALTER TABLE
 ATLER TABLE hookah ADD weight varchar(8)
---В результате, в таблицу hookah будет добавлен столбец weight:
+--В результаті, в таблицю hookah буде доданий стовпець weight:
 SELECT * FROM hookah
 
 --11
